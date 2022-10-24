@@ -5,7 +5,7 @@ import XCTest
 
 class WeatherServiceImplIntegrationTests: XCTestCase {
     
-    func testingTheRealDeal() async {
+    func testingAPI() async {
         
         let myLibrary = MyLibrary(weatherService: WeatherServiceImpl())
         
